@@ -34,7 +34,7 @@
 		    <div class="col-xs-12 col-sm-12 col-md-12">
 		        <div class="form-group">
 		            <strong>Title:</strong>
-		            <input type="text" name="title" class="form-control" placeholder="Title" value={{ old('title') }}>
+		            <input type="text" name="title" class="form-control" placeholder="Title" value= "{{ old('title') }}" >
 		        </div>
 		    </div>
 		    <div class="col-xs-12 col-sm-12 col-md-12">

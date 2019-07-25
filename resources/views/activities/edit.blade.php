@@ -31,20 +31,20 @@
 
          <div class="row">
 		    <div class="col-xs-12 col-sm-12 col-md-12">
-		        <div class="control">
+		        <div class="form-group">
 		            <strong>Title:</strong>
 		            <input type="text" name="title" value="{{ $activity->title }}" class="form-control" placeholder="Title">
 		        </div>
 		    </div>
 
 		    <div class="col-xs-12 col-sm-12 col-md-12">
-		        <div class="control">
+		        <div class="form-group">
 		            <strong>Desription:</strong>
 		            <textarea class="form-control" name="description" placeholder="Desription">{{ $activity->description }}</textarea>
 		        </div>
 		    </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="control">
+                <div class="form-group">
                     <strong>Time spent in minutes:</strong>
                     <input type="text" name="time_spent" value="{{ $activity->time_spent }}" class="form-control" placeholder="Time spent">
                 </div>
