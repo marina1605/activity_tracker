@@ -49,10 +49,10 @@
                     <input type="text" name="time_spent" value="{{ $activity->time_spent }}" class="form-control" placeholder="Time spent">
                 </div>
             </div>
-		    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
 		      <button type="submit" class="btn btn-primary">Update</button>
 		    </div>
-		</div>
+		</div>  
     </form>
 
 

@@ -30,7 +30,7 @@
             <th>Title</th>
             <th>Description</th>
             <th>Time spent(min)</th>
-            <th>Edit</th>
+            <th>Update</th>
             <th>Delete</th>
         </tr>
 

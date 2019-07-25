@@ -99,7 +99,7 @@ class ActivityController extends Controller
         return request()->validate([
             'title' => 'required|min:3|max:255',
             'description' => 'required|min:5',
-            'time_spent' => 'required|integer'
+            'time_spent' => 'required|integer|min:1|max:1440'
         ]);
     }
 }
